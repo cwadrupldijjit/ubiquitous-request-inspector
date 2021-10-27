@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "lib": [
+            "ESNext"
+        ],
+        "types": [
+            "node",
+            "express"
+        ],
+        "skipLibCheck": true
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

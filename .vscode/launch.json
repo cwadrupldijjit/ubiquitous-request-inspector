@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Launch",
+            "port": 9229,
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "runtimeArgs": [
+                "--loader",
+                "ts-node/esm"
+            ],
+            "program": "${workspaceFolder}/load.mjs",
+            "type": "pwa-node",
+            "console": "integratedTerminal"
+        }
+    ]
+}
